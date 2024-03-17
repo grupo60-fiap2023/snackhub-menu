@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.env.AbstractEnvironment;
 
 
-@OpenAPIDefinition(info = @Info(title = "Snackhub Order API", version = "1.0.0"))
+@OpenAPIDefinition(info = @Info(title = "Snackhub Menu API", version = "1.0.0"))
 @SecurityScheme(type = SecuritySchemeType.HTTP, name = "bearerAuth", in = SecuritySchemeIn.HEADER, bearerFormat = "JWT",
         scheme = "bearer")
 @SpringBootApplication
